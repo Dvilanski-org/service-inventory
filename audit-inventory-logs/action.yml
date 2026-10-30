@@ -1,0 +1,7 @@
+name: "audit-inventory-logs"
+description: "Audit Inventory Logs Composite Action"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Executing audit-inventory-logs"
+      shell: bash
